@@ -1,0 +1,379 @@
+  #first{
+    height: 700px;
+    margin-top: 0px;
+    background-image: url(../images/rtk2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: animate 15s ease-in-out infinite;
+    background-position: center center;
+    margin-top: -20px;
+    animation:colorchange infinite 10s;
+}
+
+.overlay {
+    background-color: rgba(23, 25, 34, 0.589);
+    height: 100%;
+}
+#para{
+  background-color: rgba(30, 31, 36, 0.7);
+  padding-top: 0px;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+  height: 100%;
+}
+
+
+
+#img1{
+  height: 100px;
+  width: 100px;
+  margin-top: 4px;
+  margin-right: 120px;
+  margin-left: 20px;
+  border-radius: 1000px;
+}
+#img2{
+  height: 400px;
+  width: 400px;
+  margin-top: 4px;
+  margin-right: 120px;
+  margin-left: 20px;
+  
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+    
+  }
+  
+  li {
+    float: right;
+    margin-right:5px;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 115px;
+    margin-top: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+ li a:hover:not(.active) {
+    /* background-color: rgb(4, 103, 139);
+    border-bottom: aqua solid 3px; */
+    transform: rotate(2deg);
+  }
+  
+  .active {
+    background-color:skyblue
+  }
+  .active22 {
+  /* background-color: rgb(41, 182, 238);  */
+  } 
+  .row9{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    margin-top: 330px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+  }
+  #img3{
+    height: 30px;
+    width: 30px;
+    margin-top: -400px;
+    
+  }
+  #img4{
+    height: 25px;
+    width: 25px;
+    margin-left:- 100px;
+    margin-top: -300px;
+    
+  }
+  #img5{
+    height: 30px;
+    width: 30px;
+    margin-right: 1px ;
+    margin-top: -80px ;
+    
+  }
+  #img9{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-top:-70px;
+
+  }
+
+  #img6{
+    height: 50px;
+    width: 50px;
+    padding-left: 50px;
+    
+  }
+  #img7{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 30px ;
+ 
+  }
+  #img8{
+  height: 250px;
+  width: 250px;
+  margin-top: 15px;
+  margin-left: 0px;
+    
+  }
+  #img10{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 95px;
+    margin-left: -8px;
+    margin-top: -10px;
+    
+    
+      
+    }
+
+  .col9{
+    color: white;
+    margin-left: 190px;
+  }
+
+  footer{
+    background-color: black;
+    height: 400px;
+    margin-top: -40px;
+  }
+  input{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: skyblue solid 1px;
+    color: white;
+  }
+  #img11{
+    height: 220px;
+    width: 220px;
+    margin-top: -5px;
+    border-radius: 800px;
+    margin-bottom: -30px;
+  }
+  .col10{
+    width: 100%;
+    margin-left: 90px;
+    
+  }
+  #welcome{
+    color: white;
+    font-size: 44px;
+  }
+  .container1{
+    padding-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+ #j1{
+  height: 500px;
+  width:500px;
+ }
+#j3{
+height: 500px;
+width: 525px;
+margin-top: 20px;
+}
+#j4{
+height: 500px;
+width: 500px;
+}
+#j5{
+ height: 500px;
+ width: 500px;
+}
+.col15{
+    margin: 0px;
+    padding-top: -15px;
+}
+.col16{
+    margin: 0px;
+    padding: 0px;
+}
+.col17{
+    margin: 0px;
+    padding: 0px;
+}
+#rowA{
+
+    width: 100%;
+    height:  700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/gallery-4.jpg);
+    background-attachment: fixed;
+    animation: animate 15s ease-in-out infinite;
+    background-position: center center;
+    margin-top: 0px;
+}
+.overlay2 {
+  background-color: rgba(12, 13, 19, 0.589);
+  height: 100%;
+}
+.colA{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.rowA{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.motto{
+  background-color: black;
+  color: white;
+  width: 500px;
+  margin-left: 380px;
+  margin-bottom: 50px;
+  
+}
+.motto2{
+  background-color: black;
+  color: white;
+  width: 400px;
+  margin-left: 10px; 
+  margin-bottom: 50px;
+}
+.motto3{
+  margin-left: -150px;
+  width: 100px;
+  margin-right: 40px;
+  margin-left: 380px;
+  
+}
+.colA{
+  padding-left: 40px;
+  
+}
+.colB{
+  padding-left: -40px;
+}
+.colC{
+  padding-left: 380px;
+}
+
+.motto4{
+  width: 500px;
+  background-color: black;
+  color: white;
+}
+.rowD{
+  margin-top: -40px;
+}
+button{
+  border-bottom: aqua solid 3px;
+}
+#welcome{
+  display: none;
+}
+.row6{
+  background-attachment: fixed;
+  animation: animate 15s ease-in-out infinite;
+  background-position: center center;
+  margin: 120px;
+  margin-top: 10px;
+}
+.row7{
+  background-attachment: fixed;
+  animation: animate 15s ease-in-out infinite;
+  background-position: center center;
+  margin: 120px;
+  margin-top: -150px;
+}
+button{
+  -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+@-webkit-keyframes bounceInUp {
+  0% {
+     opacity: 0;
+     -webkit-transform: translateY(2000px);
+  }
+  60% {
+     opacity: 1;
+     -webkit-transform: translateY(-30px);
+  }
+  80% {
+     -webkit-transform: translateY(10px);
+  }
+  100% {
+     -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes bounceInUp {
+  0% {
+     opacity: 0;
+     transform: translateY(2000px);
+  }
+  60% {
+     opacity: 1;
+     transform: translateY(-30px);
+  }
+  80% {
+     transform: translateY(10px);
+  }
+  100% {
+     transform: translateY(0);
+  }
+}
+
+.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+}
+.cl1{
+  margin-left: -95px;
+  margin-top: 40px;
+}
+
+.cl2{
+  margin-left: -138px;
+  margin-top: -30px;
+}
+.cl3{
+  margin-left: -135px;
+  margin-top: -80px;
+}
+.cl4{
+  margin-left: -72px;
+  margin-top: 30px;
+}
+.cl5{
+  margin-left: 50px;
+  margin-top: -45px;
+}
+.cl6{
+  margin-left: 50px;
+  margin-top: -85px;
+}
