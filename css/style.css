@@ -9,6 +9,7 @@
     background-position: center center;
     margin-top: -20px;
     animation:colorchange infinite 10s;
+    margin-bottom: 20px;
 }
 
 .overlay {
@@ -161,7 +162,8 @@ ul {
   footer{
     background-color: black;
     height: 400px;
-    margin-top: -40px;
+    margin-top: -150px;
+    margin-bottom: 0px;
   }
   input{
     width: 100px;
@@ -190,16 +192,22 @@ ul {
     padding-top: 0px;
     margin-bottom: 10px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right:none;
   }
  #j1{
-  height: 500px;
-  width:500px;
+  height: 300px;
+  width:300px;
+  margin-bottom: 30px;
  }
 #j3{
-height: 500px;
-width: 525px;
-margin-top: 20px;
+height:300px;
+width: 325px;
+
+}
+#j2{
+  height:300px;
+  width: 325px;
+  
 }
 #j4{
 height: 500px;
@@ -253,6 +261,7 @@ width: 500px;
   width: 500px;
   margin-left: 380px;
   margin-bottom: 50px;
+  border: ridge aqua 5px;
   
 }
 .motto2{
@@ -261,12 +270,15 @@ width: 500px;
   width: 400px;
   margin-left: 10px; 
   margin-bottom: 50px;
+  border: ridge aqua 5px;
+  
 }
 .motto3{
   margin-left: -150px;
   width: 100px;
   margin-right: 40px;
   margin-left: 380px;
+  border: ridge aqua 5px;
   
 }
 .colA{
@@ -284,12 +296,19 @@ width: 500px;
   width: 500px;
   background-color: black;
   color: white;
+  border: ridge aqua 5px;
+
 }
 .rowD{
   margin-top: -40px;
 }
 button{
-  border-bottom: aqua solid 3px;
+  border: crimson solid 3px;
+  color: white; 
+  width: 150px;
+   margin-right: 20px;
+   background-color: transparent; 
+   border-radius: 50px;
 }
 #welcome{
   display: none;
@@ -298,15 +317,15 @@ button{
   background-attachment: fixed;
   animation: animate 15s ease-in-out infinite;
   background-position: center center;
-  margin: 120px;
+  margin: 160px;
   margin-top: 10px;
 }
 .row7{
   background-attachment: fixed;
   animation: animate 15s ease-in-out infinite;
   background-position: center center;
-  margin: 120px;
-  margin-top: -150px;
+  margin: 160px;
+  margin-top: -180px;
 }
 button{
   -webkit-animation-duration: 10s;
@@ -314,44 +333,8 @@ button{
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
 }
-@-webkit-keyframes bounceInUp {
-  0% {
-     opacity: 0;
-     -webkit-transform: translateY(2000px);
-  }
-  60% {
-     opacity: 1;
-     -webkit-transform: translateY(-30px);
-  }
-  80% {
-     -webkit-transform: translateY(10px);
-  }
-  100% {
-     -webkit-transform: translateY(0);
-  }
-}
 
-@keyframes bounceInUp {
-  0% {
-     opacity: 0;
-     transform: translateY(2000px);
-  }
-  60% {
-     opacity: 1;
-     transform: translateY(-30px);
-  }
-  80% {
-     transform: translateY(10px);
-  }
-  100% {
-     transform: translateY(0);
-  }
-}
 
-.bounceInUp {
-  -webkit-animation-name: bounceInUp;
-  animation-name: bounceInUp;
-}
 .cl1{
   margin-left: -95px;
   margin-top: 40px;
@@ -376,4 +359,39 @@ button{
 .cl6{
   margin-left: 50px;
   margin-top: -85px;
+}
+.con{
+  display: none;
+}
+p{
+  font-family: 'Ubuntu';
+}
+h3{
+  font-family: Dancing script;
+}
+.services{
+  margin-bottom: 30px;
+  background-attachment: fixed;
+  animation: animate 15s ease-in-out infinite;
+  background-image: url(../images/hands.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  margin-top: 20px;
+}
+.services:hover{
+cursor: ;
+}
+#gis1{
+  height: 400px;
+  width: 500px;
+  margin-top: 10px;
+}
+.rowF{
+  background-attachment: fixed;
+  animation: animate 15s ease-in-out infinite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
